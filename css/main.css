@@ -25,6 +25,7 @@ body {
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
+	border: 1px solid red;
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool {
@@ -63,28 +64,73 @@ body {
 	float: left;
 }
 
+.hulk-ryu {
+	background-image: url('../images/ryu-standing-still.png');
+	background-repeat: no-repeat;
+	-webkit-filter: hue-rotate(90deg);
+	filter: hue-rotate(90deg);
+	-moz-transform: scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+	margin-left: 500px;
+	width: 659px;
+	height: 494px;
+	display: none;
+	border: 1px solid red;
+}
+
 .click {
 	position: absolute;
-	left: 650px;
+	left: 575px;
 	width: 325px;
-	padding-top: 75px;
-	margin-bottom: 50px;
+	padding-top: 25px;
 	font-size: 30px;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Audiowide';
 	text-transform: uppercase;
-	border: 1px solid none;
+	display: none;
+	border: 1px solid red;
 }
 
 .press {
 	position: absolute;
-	left: 750px;
-	width: 365px;
+	left: 650px;
+	width: 385px;
 	text-align: right;
-	padding-top: 275px;
+	padding-top: 190px;
 	font-size: 30px;
-	font-family: 'Audiowide', cursive;
+	font-family: 'Audiowide';
 	text-transform: uppercase;
+	display: none;
+	border: 1px solid red;
+}
+
+.hit {
+	position: absolute;
+	left: 575px;
+	width: 400px;
+	padding-top: 400px;
+	font-size: 30px;
+	font-family: 'Audiowide';
+	color: red;
+	text-transform: uppercase;
+	display: none;
+	border: 1px solid red;
+}
+
+.sf-logo {
+	background-image: url('../images/sf-logo.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 25%;
+	margin-left: 450px;
+	display: none;
 	border: 1px solid none;
 }
+
 
 

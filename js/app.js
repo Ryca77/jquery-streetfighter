@@ -36,10 +36,28 @@ $(document).ready(function() {
 		if (event.which == 88) {
 		console.log('keyup');
 		$('.ryu-cool').hide();
-		$('.ryu-still').show();
+		$('.ryu-ready').show();
+		}
+	});
+	$(".h").keydown(function(event) {
+		if (event.which == 72) {
+		$('.click').hide();
+		$('.press').hide();
+		$('.hit').hide();
+		$('.hulk-ryu').show();
 		}
 	});
 });
+
+
+
+$.fx.speeds.slow = 1500;
+$(function() {
+	$('.sf-logo').fadeIn('slow');
+	$('.sf-logo').fadeOut('slow');
+	$('.click, .press, .hit').delay(3000).fadeIn('slow');
+});
+
 
 function playhadouken () {
 	$('#hadouken-sound')[0].volume = 0.5;
