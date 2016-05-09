@@ -65,8 +65,7 @@ body {
 	float: left;
 }
 
-.hulk-ryu, .hulk-ryu-still, .hulk-ryu-ready,
-.hulk-ryu-throwing, .hulk-ryu-cool {
+.hulk-ryu {
 	background-repeat: no-repeat;
 	position: absolute;
 	-webkit-filter: hue-rotate(90deg);
