@@ -53,9 +53,6 @@ $(document).ready(function() {
 	$(".hulk-ryu").mouseenter(function() {
 		$('.hulk-ryu-still').hide();
 		$('.hulk-ryu-ready').show();
-		$('.click').hide();
-		$('.press').hide();
-		$('.hit').hide();
 	})
 	.mouseleave(function() {
 		$('.hulk-ryu-ready').hide();
@@ -84,9 +81,6 @@ $(document).ready(function() {
 		$('.hulk-ryu-still').hide();
 		$('.hulk-ryu-ready').hide();
 		$('.hulk-ryu-cool').show();
-		$('.click').hide();
-		$('.press').hide();
-		$('.hit').hide();
 		}
 	})
 	.keyup(function(event) {

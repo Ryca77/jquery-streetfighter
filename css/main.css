@@ -80,6 +80,7 @@ body {
 	margin-left: 500px;
 	width: 659px;
 	height: 494px;
+	display: none;
 	border: 1px solid none;
 }
 
@@ -106,7 +107,7 @@ body {
 
 .click {
 	position: absolute;
-	left: 475px;
+	left: 600px;
 	width: 325px;
 	padding-top: 25px;
 	font-size: 30px;
@@ -118,7 +119,7 @@ body {
 
 .press {
 	position: absolute;
-	left: 530px;
+	left: 650px;
 	width: 385px;
 	text-align: right;
 	padding-top: 190px;
@@ -131,7 +132,7 @@ body {
 
 .hit {
 	position: absolute;
-	left: 475px;
+	left: 600px;
 	width: 400px;
 	padding-top: 400px;
 	font-size: 30px;
@@ -149,7 +150,7 @@ body {
 	width: 500px;
 	height: 250px;
 	top: 25%;
-	margin-left: 325px;
+	margin-left: 475px;
 	display: none;
 	border: 1px solid none;
 }
