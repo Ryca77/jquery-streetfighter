@@ -45,12 +45,17 @@ $(document).ready(function() {
 		$('.click').hide();
 		$('.press').hide();
 		$('.hit').hide();
+		$('.hulk-ryu-ready').hide();
+		$('.hulk-ryu').show();
 		$('.hulk-ryu-still').show();
 		}
 	})
 	$(".hulk-ryu").mouseenter(function() {
 		$('.hulk-ryu-still').hide();
 		$('.hulk-ryu-ready').show();
+		$('.click').hide();
+		$('.press').hide();
+		$('.hit').hide();
 	})
 	.mouseleave(function() {
 		$('.hulk-ryu-ready').hide();
@@ -60,12 +65,12 @@ $(document).ready(function() {
 		playhadouken();
 		$('.hulk-ryu-ready').hide();
 		$('.hulk-ryu-throwing').show();
-		$('.hadouken').finish().show().animate(
-			{'left': '1020px'},
+		$('.hulk-hadouken').finish().show().animate(
+			{'left': '190px'},
 			500,
 			function() {
 				$(this).hide();
-				$(this).css('left', '520px');
+				$(this).css('left', '675px');
 			}
 		);
 	})
@@ -79,6 +84,9 @@ $(document).ready(function() {
 		$('.hulk-ryu-still').hide();
 		$('.hulk-ryu-ready').hide();
 		$('.hulk-ryu-cool').show();
+		$('.click').hide();
+		$('.press').hide();
+		$('.hit').hide();
 		}
 	})
 	.keyup(function(event) {
