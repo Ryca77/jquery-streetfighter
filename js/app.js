@@ -41,7 +41,7 @@ $(document).ready(function() {
 	});
 	$(".h").keydown(function(event) {
 		if (event.which == 72) {
-		$('sf-logo').hide();
+		$('.sf-logo').hide();
 		$('.click').hide();
 		$('.press').hide();
 		$('.hit').hide();
@@ -49,17 +49,17 @@ $(document).ready(function() {
 		}
 	})
 	$(".hulk-ryu").mouseenter(function() {
-		$('hulk-ryu-still').hide();
-		$('hulk-ryu-ready').show();
+		$('.hulk-ryu-still').hide();
+		$('.hulk-ryu-ready').show();
 	})
 	.mouseleave(function() {
-		$('hulk-ryu-ready').hide();
-		$('hulk-ryu-still').show();
+		$('.hulk-ryu-ready').hide();
+		$('.hulk-ryu-still').show();
 	})
 	.mousedown(function() {
 		playhadouken();
-		$('hulk-ryu-ready').hide();
-		$('hulk-ryu-throwing').show();
+		$('.hulk-ryu-ready').hide();
+		$('.hulk-ryu-throwing').show();
 		$('.hadouken').finish().show().animate(
 			{'left': '1020px'},
 			500,
@@ -70,22 +70,22 @@ $(document).ready(function() {
 		);
 	})
 	.mouseup(function() {
-		$('hulk-ryu-throwing').hide();
-		$('hulk-ryu-ready').show();
+		$('.hulk-ryu-throwing').hide();
+		$('.hulk-ryu-ready').show();
 		console.log('mouseup');
 	});
 	$(".h").keydown(function(event) {
 		if (event.which == 88) {
-		$('hulk-ryu-still').hide();
-		$('hulk-ryu-ready').hide();
-		$('hulk-ryu-cool').show();
+		$('.hulk-ryu-still').hide();
+		$('.hulk-ryu-ready').hide();
+		$('.hulk-ryu-cool').show();
 		}
 	})
 	.keyup(function(event) {
 		if (event.which == 88) {
 		console.log('keyup');
-		$('hulk-ryu-cool').hide();
-		$('hulk-ryu-ready').show();
+		$('.hulk-ryu-cool').hide();
+		$('.hulk-ryu-ready').show();
 		}
 	});
 });
