@@ -29,7 +29,7 @@ body {
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool,
-.hulk-ryu-ready, .hulk-ryu-thowing, .hulk-ryu-cool {
+.hulk-ryu-still, .hulk-ryu-ready, .hulk-ryu-throwing, .hulk-ryu-cool {
 	display: none;
 }
 
@@ -68,6 +68,7 @@ body {
 .hulk-ryu, .hulk-ryu-still, .hulk-ryu-ready,
 .hulk-ryu-throwing, .hulk-ryu-cool {
 	background-repeat: no-repeat;
+	position: absolute;
 	-webkit-filter: hue-rotate(90deg);
 	filter: hue-rotate(90deg);
 	-moz-transform: scaleX(-1);
